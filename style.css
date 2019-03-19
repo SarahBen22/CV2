@@ -1,0 +1,547 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media all and (max-width: 425px) {
+
+}
+
+.introduce {
+  background-image: url("navbar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.introduce {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  font-family: 'Monoton', cursive;
+  margin: 25px auto;
+}
+
+h3 {
+  color: white;
+  margin: 35px auto;
+}
+
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+
+#un {
+  font: bold 200% Consolas, Monaco, monospace;
+  border-right: .1em solid black;
+  width: 7em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typing 2s steps(21, end),
+  blink-caret .5s step-end infinite alternate;
+}
+
+.About {
+  height: 50vh;
+  width: 100%;
+  background-color: #7ed6df;
+  background-image: linear-gradient(315deg, #7ed6df 0%, #000000 74%);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  border-bottom: 3px solid grey;
+}
+
+#infos,#un,#text {
+  color:white;
+}
+
+#text {
+  font-family: 'Alegreya', serif;
+  font-size: 20px;
+}
+
+
+.Expériencesprofessionnelles {
+  height: 60vh;
+  width: 100%;
+  background-image: url("flower.jpg");
+  filter: alpha(opacity=30);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  border-bottom: 3px solid grey;
+  text-align: center;
+}
+
+
+.exp {
+  margin-left: 20%;
+  background-color: rgba(255,255,255,0.5);
+  border: 1px solid white;
+  width:55%;
+  height: 85%;
+}
+
+.Formations {
+  height: 60vh;
+  width: 100%;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
+  border-bottom: 3px solid grey;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+.Comp {
+  height: 60vh;
+  width: 100%;
+  background-image: url("ok.jpg");
+  border-bottom: 3px solid grey;
+  filter: alpha(opacity=50);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+.compe {
+  border-right:2px solid grey;
+  border-right-style: dashed;
+  width:45%;
+  height: 100%;
+  margin-left: 4.5vh;
+}
+
+.qr {
+  column-count: 2;
+  list-style-type: none;
+}
+
+#qr{max-width:1400px;height:auto;clear:both}
+.col{width:100%;}
+.col:first-child{margin-left:0}
+
+#quatre {
+  margin-left: 4vh;
+  margin-top: 20px;
+}
+.rea {
+  position : relative;
+  /* display: flex; */
+  width: 0;
+  height: 0;
+  /* justify-items: end; */
+}
+
+img {
+  display: row;
+  width: 15vw;
+  margin-left: 2vw;
+}
+
+.cont {
+  display: flex;
+  height: 40%;
+}
+
+.conta {
+  display: flex;
+  height: 40%;
+  margin-top: 27px;
+}
+
+.ecom1 {
+  height:15vh;
+  width: 15vw;
+}
+
+
+.forum1 {
+  height:15vh;
+  width: 15vw;
+  left: -10vh;
+
+}
+
+
+.count1 {
+  height:15vh;
+  width: 15vw;
+}
+
+
+.ecom2 {
+  height:5vh;
+  width: 5vw;
+}
+
+
+.forum2 {
+  /* position: absolute; */
+  height:5vh;
+  width: 5vw;
+}
+
+
+.count2 {
+  position: absolute;
+  height:5vh;
+  width: 5vw;
+}
+
+@media all and (max-width : 425px) {
+  .ecom1,
+  .forum1,
+  .count1 {
+    display: none;
+  }
+  .ecom2,
+  .forum2,
+  .count2 {
+    display:table-cell;
+  }
+}
+@media all and (min-width : 426px) {
+  .ecom2,
+  .forum2,
+  .count2 {
+    display: none;
+  }
+  .ecom1,
+  .forum1,
+  .count1 {
+    display:table-cell;
+  }
+}
+
+/* img{
+  margin-top: 2vh;
+  border-radius: 30%;
+  border: -0.8vh solid black;
+} */
+
+.qualites {
+  margin-left: 2vh;
+}
+
+.langues {
+  border-right: 2px solid grey;
+  margin-left: 4.5vh;
+  border-right-style: dashed;
+}
+
+.langues,.qualites {
+  height: 100%;
+  width: 45%;
+}
+
+@media all and (max-width : 425px) {
+  .eng1,
+  .esp1,
+  .arab1,
+  .js1 {
+    display: none;
+  }
+  li {
+    list-style-type: none;
+  }
+}
+@media all and (min-width : 426px) {
+  .eng2,
+  .esp2,
+  .arab2,
+  .js2 {
+    display: none;
+  }
+}
+
+.Loisirs {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  background-image: url("grey.jpg");
+  /* opacity: 0.5;
+  filter: alpha(opacity=50); */
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  color: black;
+  justify-content: center;
+}
+
+
+        /*********/
+      /*CAROUSEL*/
+    /***********/
+
+.slider {
+  background-color: #fff;
+  box-shadow: inset 0 0 2px hsla(0,0%,0%,.2),
+              0 3px 1px hsla(0,0%,100%,.75),
+              0 -1px 1px 2px hsla(0,0%,0%,.1);
+  height: 23em;
+  left: 50%;
+  margin: -9.875em -13em;
+  padding: .5em;
+  position: absolute;
+  top: 50%;
+  width: 27em;
+}
+
+/* Slides */
+
+.slider li {
+  list-style:none;
+  position: absolute;
+}
+
+.slider input {
+  display: none;
+}
+
+/* Navigation */
+
+.slider label {
+  background-color: #111;
+  background-image: linear-gradient(transparent, hsla(0,0%,0%,.25));
+  border: .2em solid black;
+  bottom: -1.5em;
+  cursor: pointer;
+  display: block;
+  height: .8em;
+  left: 25em;
+  opacity: 0;
+  position: absolute;
+  transition: .25s;
+  width: .8em;
+  visibility: hidden;
+  z-index: 10;
+}
+
+.slider label::after {
+  border-radius: 100%;
+  bottom: -.2em;
+  box-shadow: inset 0 0 0 .2em #111,
+              inset 0 2px 2px #000,
+              0 1px 1px hsla(0,0%,100%,.25);
+  content: '';
+  left: -.2em;
+  position: absolute;
+  right: -.2em;
+  top: -.2em;
+}
+
+.slider:hover label {
+  opacity: 1;
+  visibility: visible;
+}
+
+.slider input:checked + label {
+  background-color: #fff;
+}
+
+.slider:hover li:nth-child(1) label {
+  left: .5em;
+}
+
+.slider:hover li:nth-child(2) label {
+  left: 2em;
+}
+
+.slider:hover li:nth-child(3) label {
+  left: 3.5em;
+}
+
+.slider:hover li:nth-child(4) label {
+  left: 5em;
+}
+
+.slider:hover li:nth-child(5) label {
+  left: 6.5em;
+}
+
+.slider:hover li:nth-child(6) label {
+  left: 8em;
+}
+
+.slider:hover li:nth-child(7) label {
+  left: 8em;
+  display: none
+}
+
+/* Images */
+
+.slider img {
+  height: 18.75em;
+  opacity: 0;
+  transition: .25s;
+  width: 23em;
+  vertical-align: top;
+  visibility: hidden;
+}
+.slider li input:checked ~ img {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+
+/********* Hover image et texte *******/
+/* Overlay */
+
+.overlay-image1 .hover1 {
+  position: absolute;
+  top: 35vh;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay-image2 .hover2 {
+  position: absolute;
+  top: 35vh;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay-image3 .hover3 {
+  position: absolute;
+  top: 35vh;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay-image4 .hover4 {
+  position: absolute;
+  top: 35vh;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay-image5 .hover5 {
+  position: absolute;
+  top: 35vh;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay-image6 .hover6 {
+  position: absolute;
+  top: 35vh;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay-image7 .hover7 {
+  position: absolute;
+  top: 35vh;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+/* Apparition overlay sur passage souris */
+
+.overlay-image1:hover .hover1 {
+  opacity: 1;
+  font-size: 150%;
+}
+
+.overlay-image2:hover .hover2 {
+  opacity: 1;
+  font-size: 150%;
+}
+
+.overlay-image3:hover .hover3 {
+  opacity: 1;
+  font-size: 150%;
+}
+
+.overlay-image4:hover .hover4 {
+  opacity: 1;
+  font-size: 150%;
+}
+
+.overlay-image5:hover .hover5 {
+  opacity: 1;
+  font-size: 150%;
+}
+
+.overlay-image6:hover .hover6 {
+  opacity: 1;
+  font-size: 150%;
+}
+
+.overlay-image7:hover .hover7 {
+  opacity: 1;
+  font-size: 150%;
+}
+
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6 {
+  font-style: italic;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text7 {
+  font-style: italic;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+@media all and (max-width : 425px) {
+  .overlay-image1 .hover1,
+  .overlay-image2 .hover2,
+  .overlay-image3 .hover3,
+  .overlay-image4 .hover4,
+  .overlay-image5 .hover5,
+  .overlay-image6 .hover6,
+  .overlay-image7 .hover7 {
+    top: 35vh;
+  }
+}
+
+/* @@media all and (min-height : 426px) and (max-height : 800px) {
+  .overlay-image1 .hover1,
+  .overlay-image2 .hover2,
+  .overlay-image3 .hover3,
+  .overlay-image4 .hover4,
+  .overlay-image5 .hover5,
+  .overlay-image6 .hover6,
+  .overlay-image7 .hover7 {
+    top: 20vh;
+  }
+} */
+
+}
+
+@media all and (min-width : 426px) {
+  .overlay-image1 .hover1,
+  .overlay-image2 .hover2,
+  .overlay-image3 .hover3,
+  .overlay-image4 .hover4,
+  .overlay-image5 .hover5,
+  .overlay-image6 .hover6,
+  .overlay-image7 .hover7 {
+    top: 10vh;
+  }
+}
